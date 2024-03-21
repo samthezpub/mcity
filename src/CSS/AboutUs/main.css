@@ -1,0 +1,242 @@
+body{
+    background: linear-gradient(186.25deg, rgba(255, 255, 255, 0.5) 4.83%, #94DB3A 96.32%);
+    background-repeat: no-repeat;
+}
+
+.block {
+    height: 695px;
+}
+
+.title{
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 75.6px;
+    text-align: left;
+}
+
+.second_title{
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 38.4px;
+    text-align: left;
+}
+
+
+.description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.about{
+    display: flex;
+    align-items: center;
+
+    height: 695px;
+
+    position: relative;
+
+}
+
+.about .about_text{
+    width: 400px;
+    float: left;
+}
+
+.about .about_text .about_text_title{
+    font-size: 72px;
+    font-weight: 800;
+    line-height: 75.6px;
+    text-align: left;
+
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.about .about_text .about_text_description{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28.8px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+    margin: 0;
+}
+
+.about .about_kulaki{
+    width: 625px;
+    float: right;
+
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+}
+
+.about .kulaki_bg_dark{
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+
+    z-index: -1;
+}
+
+.cloud_left{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    z-index: -1;
+}
+
+.cloud_right{
+    position: absolute;
+
+    top: 0;
+    right: 0;
+    z-index: -1;
+}
+
+.rectangle_after_kulaki{
+    position: absolute;
+    bottom: 0;
+    right: -15%;
+}
+
+
+.our_principles{
+    display: flex;
+    justify-content: space-evenly;
+
+    background-color: #FFFFFF;
+
+    padding-top: 200px;
+
+    position: relative;
+}
+
+.our_principles .right_text{
+
+}
+
+.our_principles .right_text .title{
+    width: 370px;
+
+    position: relative;
+    z-index: 9999;
+}
+
+.our_principles .right_text .description{
+    width: 570px;
+
+    position: relative;
+    z-index: 9999;
+}
+
+.our_principles .kulaki_bg_green{
+    position: absolute;
+    top: 0;
+    right: 5%;
+
+    z-index: 1;
+}
+
+.our_principles .monkey_highlight{
+    position: absolute;
+    bottom: 0;
+    left: 2%;
+
+
+}
+
+.our_principles .monkey_smoking_image{
+    position: relative;
+}
+
+.our_principles .quote{
+    position: absolute;
+    z-index: 999;
+    top: -50px;
+    left: 30%;
+}
+
+.advantages{
+    display: flex;
+
+    background-color: #1C1C1C;
+
+    height: 345px;
+
+    position: relative;
+    z-index: 100;
+}
+
+.advantages .advantages_list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    height: 100%;
+
+}
+
+.card{
+
+}
+
+.card .card_title{
+    font-size: 96px;
+    font-weight: 800;
+    line-height: 153.6px;
+    letter-spacing: 0.02em;
+    text-align: left;
+
+    text-shadow: rgb(149, 219, 58) 2px 0px 0px, rgb(149, 219, 58) 1.75517px 0.958851px 0px, rgb(149, 219, 58) 1.0806px 1.68294px 0px, rgb(149, 219, 58) 0.141474px 1.99499px 0px, rgb(149, 219, 58) -0.832294px 1.81859px 0px, rgb(149, 219, 58) -1.60229px 1.19694px 0px, rgb(149, 219, 58) -1.97998px 0.28224px 0px, rgb(149, 219, 58) -1.87291px -0.701566px 0px, rgb(149, 219, 58) -1.30729px -1.5136px 0px, rgb(149, 219, 58) -0.421592px -1.95506px 0px, rgb(149, 219, 58) 0.567324px -1.91785px 0px, rgb(149, 219, 58) 1.41734px -1.41108px 0px, rgb(149, 219, 58) 1.92034px -0.558831px 0px;
+}
+
+.card .card_description{
+    color: #95DB3A;
+
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 38.4px;
+    letter-spacing: 0.02em;
+    text-align: left;
+}
+
+.advantages_after{
+    background-color: #FFFFFF;
+
+    padding-top: 150px;
+
+    position: relative;
+}
+
+.advantages_after .advantages_info{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+}
+
+.avantage{
+    width: 500px;
+}
+
+.advantages_after .car{
+    position: relative;
+    z-index: 20;
+}
+
+.advantages_after .car_bg{
+    position: absolute;
+    right: 50%;
+
+    z-index: 0;
+}
+
+.advantages_after .car_quote{
+    position: absolute;
+    right: 45%;
+    top: 15%;
+}
